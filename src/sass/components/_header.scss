@@ -1,0 +1,17 @@
+.site-header {
+  &__container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+}
+
+.nav-list{
+    display: none;
+
+    @include desktop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
