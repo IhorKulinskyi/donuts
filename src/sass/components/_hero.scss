@@ -1,0 +1,75 @@
+.hero {
+  padding-top: 89px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/src/images/hero-bg.jpg);
+
+  @include retina{
+    background-image: url(/src/images/hero-bg@2x.jpg);
+  }
+
+
+
+
+
+
+
+  border: 1px solid green;
+
+//   background-color: pink;
+
+  position: absolute;
+  top:0;
+  width: 100%;
+  z-index: -1;
+
+}
+
+.hero__container {
+  border: 1px solid yellow;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+
+  max-width: 280px;
+  margin-bottom: 20px;
+}
+
+.hero__description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 30px;
+}
+
+.hero__button {
+  @extend %button;
+  margin-bottom: 30px;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+//   margin-bottom: 10px;
+}
+
+.social-list__icon {
+    fill: $basic-black;
+    transition: $transition;
+  &:hover {
+    fill: $accent-clr;
+  }
+}

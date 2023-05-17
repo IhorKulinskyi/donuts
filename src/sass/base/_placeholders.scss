@@ -1,0 +1,13 @@
+%button {
+  color: $basic-white;
+  background-color: $accent-clr;
+  border-radius: 25px;
+  padding: 9px 35px;
+  text-align: center;
+  transition: $transition;
+
+  &:hover {
+    color: $accent-clr;
+    background-color: #fff;
+  }
+}

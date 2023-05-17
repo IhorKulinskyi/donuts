@@ -1,4 +1,8 @@
 .site-header {
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+
   &__container {
     padding: 16px 20px 0;
     display: flex;
@@ -21,6 +25,21 @@
   outline: none;
   border: none;
   background-color: transparent;
+  width: 30px;
+  height: 16px;
+
+  &__icon {
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+
+    // & > use{
+    //   display: inline-block;
+    //   width: 30px;
+    //   height: 16px;
+    // }
+  }
+
   &.is-open {
     position: absolute;
     top: 16px;
