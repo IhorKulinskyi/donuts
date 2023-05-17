@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://IhorKulinskyi.github.io/donuts/", 
+  "homepage": "https://IhorKulinskyi.github.io/donuts", 
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url donuts/"
+    "build": "parcel build src/*.html --public-url /donuts/"
   },
   "repository": {
     "type": "git",
