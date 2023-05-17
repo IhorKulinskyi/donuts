@@ -10,11 +10,11 @@
 }
 
 .nav-list {
-  @include desktop {
+  // @include desktop {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  // }
 }
 
 .menu-btn {
