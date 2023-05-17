@@ -10,11 +10,11 @@
 }
 
 .nav-list {
-  // @include desktop {
+  @include desktop {
     display: flex;
     align-items: center;
     justify-content: center;
-  // }
+  }
 }
 
 .menu-btn {
@@ -26,7 +26,7 @@
     top: 16px;
     right: 20px;
 
-    &:hover{
+    &:hover {
       rotate: 180deg;
     }
   }
@@ -67,16 +67,16 @@
     transform: translateY(-100%);
     transition: $transition-time $cubic-bezier;
 
+    & .nav-list {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      margin-top: 112px;
+    }
+
     &.is-open {
       transform: translateY(0);
-
-      & .nav-list {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-
-        margin-top: 112px;
-      }
     }
   }
 }
