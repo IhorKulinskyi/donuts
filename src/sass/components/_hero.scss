@@ -1,5 +1,6 @@
 .hero {
   padding-top: 89px;
+  padding-bottom: 10px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11,10 +12,7 @@
 
 //   border: 1px solid green;
 
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
+  margin-top: -69px;
 }
 
 .hero__container {

@@ -66,7 +66,7 @@
   @media screen and (max-width: $min-desktop) {
     padding: 16px 20px 52px;
     background-color: #e5e2e3;
-    border: 1px solid red;
+    // border: 1px solid red;
     position: absolute;
     top: 0;
     left: 0;
@@ -74,7 +74,7 @@
     height: 100%;
     text-align: center;
     transform: translateY(-100%);
-    transition: $transition-time $cubic-bezier;
+    transition: $transition;
 
     & .nav-list {
       display: flex;
@@ -93,7 +93,11 @@
 .site-header__logo {
   width: 108px;
   height: 50px;
-  &.is-open {
+  & > img {
+    width: 108px;
+    height: 50px;
+  }
+  &.is-open > img {
     position: absolute;
     top: 16px;
     left: 20px;

@@ -1,0 +1,35 @@
+.about-section {
+  padding: 20px 0 30px;
+}
+
+.about__img-thumb {
+  border-radius: 24px;
+  margin-bottom: 30px;
+
+  height: 285px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-image: url(/src/images/about-mob.jpg);
+  @include retina {
+    background-image: url(/src/images/about-mob\ 2@2x.jpg);
+  }
+}
+
+.about__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about__text1 {
+  margin-bottom: 20px;
+}
+
+.about__text2{
+    margin-bottom: 30px;
+}
